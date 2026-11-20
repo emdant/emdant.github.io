@@ -80,3 +80,10 @@ html[data-theme="dark"] .publications ol.bibliography li .links a.btn { color: #
 
 .publications ol.bibliography li .award { color: #b8860b; font-weight: 600; margin-top: 2px; }
 html[data-theme="dark"] .publications ol.bibliography li .award { color: #f0c040; }
+
+/* Venue badges: colour by publication type (set "type: poster" in _data/publications.yml) */
+.publications ol.bibliography li abbr.pub-badge { padding: 0.25em 0.8em; margin-bottom: 4px; color: #fff; text-decoration: none; border-bottom: none; cursor: default; }
+.publications ol.bibliography li abbr.pub-badge-paper { background-color: #043361; }
+.publications ol.bibliography li abbr.pub-badge-poster { background-color: #1f7a6d; }
+html[data-theme="dark"] .publications ol.bibliography li abbr.pub-badge-paper { background-color: #2496cb; }
+html[data-theme="dark"] .publications ol.bibliography li abbr.pub-badge-poster { background-color: #2a9d8f; }

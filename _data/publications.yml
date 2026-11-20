@@ -1,4 +1,4 @@
-# Fields: title, authors, conference_short (badge), conference, pdf, code, page, bibtex, image, notes
+# Fields: type (paper | poster; default paper), title, authors, conference_short (badge), conference, pdf, code, page, bibtex, image, notes
 # Optional "image:" adds a teaser picture (e.g. ./assets/img/wasp.png).
 main:
 
@@ -26,6 +26,7 @@ main:
 
   - title: "Toward Efficient Asynchronous Single-Source Shortest Path"
     authors: <strong>Marco D'Antonio</strong>, Thai Son Mai, Hans Vandierendonck
+    type: poster
     conference_short: IPDPS-W
     conference: IEEE International Parallel and Distributed Processing Symposium Workshops <strong>(IPDPSW)</strong> – PhD Forum, 2025.
     pdf: https://doi.org/10.1109/IPDPSW66978.2025.00220
