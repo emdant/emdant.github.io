@@ -86,6 +86,8 @@ html[data-theme="dark"] .publications ol.bibliography li .award { color: #f0c040
 .publications ol.bibliography li abbr.pub-badge-paper { background-color: #8b1e3f; }
 .publications ol.bibliography li abbr.pub-badge-short { background-color: #043361; }
 .publications ol.bibliography li abbr.pub-badge-poster { background-color: #2e7d32; }
+.publications ol.bibliography li abbr.pub-badge-preprint { background-color: #6b7280; }
+html[data-theme="dark"] .publications ol.bibliography li abbr.pub-badge-preprint { background-color: #8b93a1; }
 html[data-theme="dark"] .publications ol.bibliography li abbr.pub-badge-paper { background-color: #c23b63; }
 html[data-theme="dark"] .publications ol.bibliography li abbr.pub-badge-short { background-color: #2496cb; }
 html[data-theme="dark"] .publications ol.bibliography li abbr.pub-badge-poster { background-color: #43a047; }

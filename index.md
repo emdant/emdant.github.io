@@ -15,6 +15,6 @@ I am on the job market for industry R&D, national-lab and postdoctoral positions
 - **High-performance computing:** shared-memory parallelism, multicore performance, workload characterization
 - **Energy-efficient & heterogeneous computing:** frequency scaling, energy modeling
 
-{% include_relative _includes/publications.md %}
+{% include publications.md selected=true %}
 
-{% include_relative _includes/services.md %}
+{% include services.md %}

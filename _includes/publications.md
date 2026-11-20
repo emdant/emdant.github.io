@@ -1,9 +1,12 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+{% assign pubs = site.data.publications.main | sort: "date" | reverse %}
+{% if include.selected %}<h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications</h2>
+{% else %}<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>{% endif %}
 
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in pubs %}
+{% if include.selected and link.selected != true %}{% continue %}{% endif %}
 
 <li>
 <div class="pub-row">
@@ -15,7 +18,7 @@
   </div>
   {% endif %}
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      {% if link.conference_short %}{% if link.type == "poster" %}<abbr class="badge pub-badge pub-badge-poster" title="Poster">{{ link.conference_short }}</abbr>{% elsif link.type == "short" %}<abbr class="badge pub-badge pub-badge-short" title="Short / workshop paper">{{ link.conference_short }}</abbr>{% else %}<abbr class="badge pub-badge pub-badge-paper" title="Full paper">{{ link.conference_short }}</abbr>{% endif %}{% endif %}
+      {% if link.conference_short %}{% if link.type == "poster" %}<abbr class="badge pub-badge pub-badge-poster" title="Poster">{{ link.conference_short }}</abbr>{% elsif link.type == "preprint" %}<abbr class="badge pub-badge pub-badge-preprint" title="Preprint">{{ link.conference_short }}</abbr>{% elsif link.type == "short" %}<abbr class="badge pub-badge pub-badge-short" title="Short / workshop paper">{{ link.conference_short }}</abbr>{% else %}<abbr class="badge pub-badge pub-badge-paper" title="Full paper">{{ link.conference_short }}</abbr>{% endif %}{% endif %}
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
@@ -53,3 +56,4 @@
 
 </ol>
 </div>
+{% if include.selected %}<p class="all-pubs-link"><a href="/publications/">See all publications →</a></p>{% endif %}
