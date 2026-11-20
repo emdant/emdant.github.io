@@ -20,6 +20,7 @@
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
+      {% if link.award %}<div class="award"><i class="fas fa-medal"></i> {{ link.award }}</div>{% endif %}
     <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
@@ -29,6 +30,9 @@
       {% endif %}
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">arXiv</a>
+      {% endif %}
+      {% if link.artifact %}
+      <a href="{{ link.artifact }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Artifact</a>
       {% endif %}
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>

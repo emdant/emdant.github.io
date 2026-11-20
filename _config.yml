@@ -1,10 +1,14 @@
 # Basic Information
 title: Marco D'Antonio
-position: Ph.D. Candidate · Marie Curie Early Stage Researcher
+position: Ph.D. Candidate
 affiliation: Queen's University Belfast
 affiliation_link: https://www.qub.ac.uk/schools/eeecs/
-# TODO: add your e-mail address (the "(at)" form keeps simple spam bots away)
-# email: yourname (at) qub.ac.uk
+# Extra lines under the affiliation in the sidebar (link is optional)
+extra_lines:
+  - text: Marie-Curie RELAX Doctoral Network
+    link: https://relax-dn.eu/
+  - text: Early-Stage Researcher
+email: m.dantonio@qub.ac.uk
 
 # Search Engine Optimization (SEO)
 keywords: Marco D'Antonio, parallel graph analytics, single-source shortest path, SSSP, HPC, high-performance computing, Queen's University Belfast
@@ -12,6 +16,7 @@ description: Personal homepage of Marco D'Antonio, PhD candidate at Queen's Univ
 canonical: https://emdant.github.io/
 
 # Links (delete a line to hide its icon)
+orcid: https://orcid.org/0009-0002-7399-7705
 google_scholar: https://scholar.google.com/citations?user=Hup_TS0AAAAJ&hl=en
 # TODO: export your moderncv CV to assets/files/cv.pdf, then uncomment the line below
 # cv_link: assets/files/cv.pdf
@@ -27,11 +32,10 @@ favicon_dark: ./assets/img/favicon-dark.png
 # Footnote ("Powered by Jekyll and Minimal Light theme")
 enable_footnote: true
 
-# Automatic dark mode following the visitor's system setting
-auto_dark_mode: true
+# Light theme by default; visitors can switch with the button in the top-right corner
 
 # Font: "Serif" or "Sans Serif"
-font: "Serif"
+font: "Sans Serif"
 
 exclude:
   - Gemfile
