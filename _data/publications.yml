@@ -26,13 +26,13 @@ main:
 
   - title: "Toward Efficient Asynchronous Single-Source Shortest Path"
     authors: <strong>Marco D'Antonio</strong>, Thai Son Mai, Hans Vandierendonck
-    conference_short: Poster
+    conference_short: IPDPS-W
     conference: IEEE International Parallel and Distributed Processing Symposium Workshops <strong>(IPDPSW)</strong> – PhD Forum, 2025.
     pdf: https://doi.org/10.1109/IPDPSW66978.2025.00220
     award: Best Poster Award at the PhD Forum
 
   - title: "Relax and Don't Stop: Graph-aware Asynchronous SSSP"
-    authors: <strong>Marco D'Antonio</strong>*, Kåre von Geijer*, Thai Son Mai, Philippas Tsigas, Hans Vandierendonck (*equal contribution)
+    authors: <strong>Marco D'Antonio</strong>*, Kåre von Geijer*, Thai Son Mai, Philippas Tsigas, Hans Vandierendonck<br><span style="font-style:italic;">(*equal contribution)</span>
     conference_short: FCPC
     conference: 1st FastCode Programming Challenge <strong>(FCPC)</strong>, 2025.
     pdf: https://doi.org/10.1145/3711708.3723446
