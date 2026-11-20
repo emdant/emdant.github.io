@@ -1,0 +1,41 @@
+# Basic Information
+title: Marco D'Antonio
+position: Ph.D. Candidate · Marie Curie Early Stage Researcher
+affiliation: Queen's University Belfast
+affiliation_link: https://www.qub.ac.uk/schools/eeecs/
+# TODO: add your e-mail address (the "(at)" form keeps simple spam bots away)
+# email: yourname (at) qub.ac.uk
+
+# Search Engine Optimization (SEO)
+keywords: Marco D'Antonio, parallel graph analytics, single-source shortest path, SSSP, HPC, high-performance computing, Queen's University Belfast
+description: Personal homepage of Marco D'Antonio, PhD candidate at Queen's University Belfast working on parallel graph analytics and high-performance computing.
+canonical: https://emdant.github.io/
+
+# Links (delete a line to hide its icon)
+google_scholar: https://scholar.google.com/citations?user=Hup_TS0AAAAJ&hl=en
+# TODO: export your moderncv CV to assets/files/cv.pdf, then uncomment the line below
+# cv_link: assets/files/cv.pdf
+github_link: https://github.com/emdant
+linkedin: https://www.linkedin.com/in/emdant
+
+# Images
+# TODO: replace assets/img/avatar.png with your own square photo (e.g. 400x400)
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnote ("Powered by Jekyll and Minimal Light theme")
+enable_footnote: true
+
+# Automatic dark mode following the visitor's system setting
+auto_dark_mode: true
+
+# Font: "Serif" or "Sans Serif"
+font: "Serif"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
