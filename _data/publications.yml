@@ -1,4 +1,4 @@
-# Fields: type (paper | poster; default paper), title, authors, conference_short (badge), conference, pdf, code, page, bibtex, image, notes
+# Fields: type (paper = full paper, default | short = short/workshop paper | poster), title, authors, conference_short (badge), conference, pdf, code, page, bibtex, image, notes
 # Optional "image:" adds a teaser picture (e.g. ./assets/img/wasp.png).
 main:
 
@@ -34,12 +34,14 @@ main:
 
   - title: "Relax and Don't Stop: Graph-aware Asynchronous SSSP"
     authors: <strong>Marco D'Antonio</strong>*, Kåre von Geijer*, Thai Son Mai, Philippas Tsigas, Hans Vandierendonck<br><span style="font-style:italic;">(*equal contribution)</span>
+    type: short
     conference_short: FCPC
     conference: 1st FastCode Programming Challenge <strong>(FCPC)</strong>, 2025.
     pdf: https://doi.org/10.1145/3711708.3723446
 
   - title: "Domain-Specific Energy Modeling for Drug Discovery and Magnetohydrodynamics Applications"
     authors: Lorenzo Carpentieri, <strong>Marco D'Antonio</strong>, Kaijie Fan, Luigi Crisci, Biagio Cosenza, et al.
+    type: short
     conference_short: SC-W
     conference: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis <strong>(SC-W)</strong>, 2023.
     pdf: https://doi.org/10.1145/3624062.3624261

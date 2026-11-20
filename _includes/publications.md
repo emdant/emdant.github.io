@@ -15,7 +15,7 @@
   </div>
   {% endif %}
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      {% if link.conference_short %}{% if link.type == "poster" %}<abbr class="badge pub-badge pub-badge-poster" title="Poster">{{ link.conference_short }}</abbr>{% else %}<abbr class="badge pub-badge pub-badge-paper" title="Full paper">{{ link.conference_short }}</abbr>{% endif %}{% endif %}
+      {% if link.conference_short %}{% if link.type == "poster" %}<abbr class="badge pub-badge pub-badge-poster" title="Poster">{{ link.conference_short }}</abbr>{% elsif link.type == "short" %}<abbr class="badge pub-badge pub-badge-short" title="Short / workshop paper">{{ link.conference_short }}</abbr>{% else %}<abbr class="badge pub-badge pub-badge-paper" title="Full paper">{{ link.conference_short }}</abbr>{% endif %}{% endif %}
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
