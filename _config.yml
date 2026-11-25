@@ -23,6 +23,10 @@ google_scholar: https://scholar.google.com/citations?user=Hup_TS0AAAAJ&hl=en
 github_link: https://github.com/emdant
 linkedin: https://www.linkedin.com/in/emdant
 
+# Privacy-friendly analytics (cookieless). Dashboard: https://emdant.goatcounter.com
+# Delete this line to turn analytics off.
+goatcounter: emdant
+
 # Images
 
 avatar: /assets/img/avatar.jpg
